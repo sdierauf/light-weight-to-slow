@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Dogs and Butts",
+	"version": "69.0",
+	"description": "Replaces the text 'the cloud' with 'my butt' and 'light weight' with 'dog-ass slow'.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
